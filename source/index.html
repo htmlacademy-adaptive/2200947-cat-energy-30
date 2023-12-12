@@ -9,9 +9,17 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo logo-heder" href="index.html">
-          <img class="logo-heder__image" src="./images/logo-image.svg" width="38" height="38" alt="Логотип сайта - кот.">
-          <img class="logo-heder__text" src="./images/logo-text.svg" width="101" height="18" alt="Логотип Cat Energy.">
+      <a class="main-header__logo logo-heder" href="#">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-desc.svg">
+          <source width="60" height="50" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-mob.svg" width="38" height="38" alt="Логотип сайта - кот.">
+        </picture>
+        <picture>
+          <source width="118" height="21" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-text-desc.svg">
+          <source width="101" height="18" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-text-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-text-mob.svg" width="101" height="18" alt="Логотип Cat Energy.">
+        </picture>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -37,7 +45,11 @@
         <div class="hero__background">
           <h2 class="hero__title">Функциональное питание для котов</h2>
           <p class="hero__slogan">Занялся собой? Займись котом!</p>
-          <img class="hero__image" src="./images/index-can-mobile.png" width="280" height="270" alt="Пример упаковки с кормом.">
+          <picture>
+            <source width="552" height="499" type="image/png" media="(min-width:1440px)" srcset="./images/index-can-tablet@1x.png 1x, ./images/index-can-tablet@2x.png 2x">
+            <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="./images/index-can-tablet@1x.png 1x, ./images/index-can-tablet@2x.png 2x">
+            <img class="hero__image" src="./images/index-can-mobile@1x.png" srcset="./images/index-can-mobile@2x.png 2x" width="280" height="270" alt="Пример упаковки с кормом.">
+          </picture>
         </div>
       </section>
       <section class="nutrition-programs">
@@ -84,7 +96,11 @@
             </tr>
           </table>
           <p class="example__conclusion">Затраты на питание: 15 000 руб.</p>
-          <img class="example__image" src="./images/compare-slider.jpg" width="280" height="256" alt="Изменения веса кота.">
+          <picture>
+            <source width="560" height="512" type="image/png" media="(min-width:1440px)" srcset="./images/compare-slider-desc@1x.png 1x, ./images/compare-slider-desc@2x.png 2x">
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="./images/compare-slider-tablet@1x.png 1x, ./images/compare-slider-tablet@2x.png 2x">
+            <img class="example__image" src="./images/compare-slider-mob@1x.png" srcset="./images/compare-slider-mob@2x.png 2x" width="280" height="256" alt="Изменения веса кота.">
+          </picture>
         </div>
       </section>
     </main>
@@ -104,7 +120,7 @@
         </div>
       </section>
       <div class="main-footer__logo footer-logo">
-        <img class="footer-logo__img" src="./images/logo-footer.svg" width="128" height="24" alt="Логотип кот энерджи">
+        <img class="footer-logo__img" src="./images/footer-logo-mob.svg" width="128" height="24" alt="Логотип кот энерджи">
       </div>
       <div class="main-footer__social social">
         <ul class="social__list">

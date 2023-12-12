@@ -10,8 +10,16 @@
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo logo-heder" href="index.html">
-          <img class="logo-heder__image" src="./images/logo-image.svg" width="38" height="38" alt="Логотип сайта - кот.">
-          <img class="logo-heder__text" src="./images/logo-text.svg" width="101" height="18" alt="Логотип Cat Energy.">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-desc.svg">
+          <source width="60" height="50" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-mob.svg" width="38" height="38" alt="Логотип сайта - кот.">
+        </picture>
+        <picture>
+          <source width="118" height="21" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-text-desc.svg">
+          <source width="101" height="18" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-text-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-text-mob.svg" width="101" height="18" alt="Логотип Cat Energy.">
+        </picture>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>

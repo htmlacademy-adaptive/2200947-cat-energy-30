@@ -9,9 +9,17 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo logo-heder" href="index.html">
-          <img class="logo-heder__image" src="./images/logo-image.svg" width="38" height="38" alt="Логотип сайта - кот.">
-          <img class="logo-heder__text" src="./images/logo-text.svg" width="101" height="18" alt="Логотип Cat Energy.">
+      <a class="main-header__logo logo-heder" href="#">
+        <picture>
+          <source width="70" height="59" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-desc.svg">
+          <source width="60" height="50" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-mob.svg" width="38" height="38" alt="Логотип сайта - кот.">
+        </picture>
+        <picture>
+          <source width="118" height="21" type="image/svg+xml" media="(min-width:1440px)" srcset="./images/logo-text-desc.svg">
+          <source width="101" height="18" type="image/svg+xml" media="(min-width:768px)" srcset="./images/logo-text-tablet.svg">
+          <img class="logo-heder__image" src="./images/logo-text-mob.svg" width="101" height="18" alt="Логотип Cat Energy.">
+        </picture>
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -52,7 +60,11 @@
                   <td>700 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-1.jpg" width="68" height="86" alt="Со вкусом курицы 500 г">
+              <picture>
+                <source width="161" height="172" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-1-desc@1x.png 1x, ./images/catalog-1-desc@2x.png 2x">
+                <source width="161" height="172" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-1-tablet@1x.png 1x, ./images/catalog-1-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-1-mob@1x.png" srcset="./images/catalog-1-mob@2x.png 2x" width="68" height="86" alt="Со вкусом курицы 500 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -71,7 +83,11 @@
                   <td>1000 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-2.jpg" width="84" height="100" alt="Со вкусом курицы 1000 г">
+              <picture>
+                <source width="161" height="172" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-2-desc@1x.png 1x, ./images/catalog-2-desc@2x.png 2x">
+                <source width="172" height="196" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-2-tablet@1x.png 1x, ./images/catalog-2-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-2-mob@1x.png" srcset="./images/catalog-2-mob@2x.png 2x" width="84" height="100" alt="Со вкусом курицы 1000 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -90,7 +106,11 @@
                   <td>700 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-3.jpg" width="68" height="78" alt="Со вкусом рыбы 500 г">
+              <picture>
+                <source width="163" height="174" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-3-desc@1x.png 1x, ./images/catalog-3-desc@2x.png 2x">
+                <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-3-tablet@1x.png 1x, ./images/catalog-3-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-3-mob@1x.png" srcset="./images/catalog-3-mob@2x.png 2x" width="68" height="86" alt="Со вкусом рыбы 500 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -109,7 +129,11 @@
                   <td>1000 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-4.jpg" width="84" height="100" alt="Со вкусом рыбы 1000 г">
+              <picture>
+                <source width="172" height="196" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-4-desc@1x.png 1x, ./images/catalog-4-desc@2x.png 2x">
+                <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-4-tablet@1x.png 1x, ./images/catalog-4-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-4-mob@1x.png" srcset="./images/catalog-4-mob@2x.png 2x" width="84" height="100" alt="Со вкусом рыбы 1000 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -128,7 +152,11 @@
                   <td>400 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-5.jpg" width="68" height="78" alt="Со вкусом гречки 500 г">
+              <picture>
+                <source width="161" height="171" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-5-desc@1x.png 1x, ./images/catalog-5-desc@2x.png 2x">
+                <source width="161" height="171" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-5-tablet@1x.png 1x, ./images/catalog-5-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-5-mob@1x.png" srcset="./images/catalog-5-mob@2x.png 2x" width="68" height="86" alt="Со вкусом гречки 500 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -147,7 +175,11 @@
                   <td>700 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-6.jpg" width="84" height="100" alt="Со вкусом гречки 1000 г">
+              <picture>
+                <source width="172" height="196" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-6-desc@1x.png 1x, ./images/catalog-6-desc@2x.png 2x">
+                <source width="168" height="200" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-6-tablet@1x.png 1x, ./images/catalog-6-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-6-mob@1x.png" srcset="./images/catalog-6-mob@2x.png 2x" width="84" height="100" alt="Со вкусом гречки 1000 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
             <li class="basic__item">
@@ -166,7 +198,11 @@
                   <td>500 ₽</td>
                 </tr>
               </table>
-              <img class="basic__image" src="./images/catalog-7.jpg" width="72" height="84" alt="Со вкусом риса 500 г">
+              <picture>
+                <source width="163" height="174" type="image/png" media="(min-width:1440px)" srcset="./images/catalog-7-desc@1x.png 1x, ./images/catalog-7-desc@2x.png 2x">
+                <source width="163" height="174" type="image/png" media="(min-width: 768px)" srcset="./images/catalog-7-tablet@1x.png 1x, ./images/catalog-7-tablet@2x.png 2x">
+                <img class="basic__image" src="./images/catalog-7-mob@1x.png" srcset="./images/catalog-7-mob@2x.png 2x" width="72" height="84" alt="Со вкусом риса 500 г.">
+              </picture>
               <button class="button basic__button" type="button">Заказать</button>
             </li>
           </ul>
@@ -214,7 +250,11 @@
             </li>
           </ul>
           <div class="additional__present">
-            <img class="additional__present-img" src="./images/substrate.jpg" width="280" height="290" alt="Сумка для кошек.">
+            <picture>
+              <source width="245" height="288" type="image/jpeg" media="(min-width:1440px)" srcset="./images/catalog-present-desc@1x.jpg 1x, ./images/catalog-present-desc@2x.jpg 2x">
+              <source width="707" height="200" type="image/jpeg" media="(min-width: 768px)" srcset="./images/catalog-present-tablet@1x.jpg 1x, ./images/catalog-present-tablet@2x.jpg 2x">
+              <img class="additional__present-img" src="./images/catalog-present-mob@1x.jpg" srcset="./images/catalog-present-mob@2x.jpg 2x" width="280" height="290" alt="Сумка для кошек.">
+            </picture>
             <p class="additional__description">Закажите все и получите чехол для кота в подарок!</p>
           </div>
         </section>
