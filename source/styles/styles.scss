@@ -1,7 +1,49 @@
 /* GLOBAL */
 @import "./global/variables.scss";
-@import "./global/global.scss";
 @import "./global/fonts.scss";
+@import "./global/global.scss";
+@import "./global/common.scss";
+@import "./global/visually-hidden.scss";
 
 /* BLOCKS */
-@import "./blocks/header.scss";
+@import "./blocks/page.scss";
+
+/* header */
+@import "./blocks/main-header.scss";
+@import "./blocks/logo-heder.scss";
+@import "./blocks/main-nav.scss";
+
+/* main*/
+@import "./blocks/main-container.scss";
+
+/*index*/
+@import "./blocks/hero.scss";
+@import "./blocks/nutrition-programs.scss";
+@import "./blocks/programs-item.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/example.scss";
+@import "./blocks/table-addiction.scss";
+
+/*catalog*/
+@import "./blocks/catalog.scss";
+@import "./blocks/basic.scss";
+@import "./blocks/add.scss";
+@import "./blocks/additional.scss";
+
+/*form*/
+@import "./blocks/main-form.scss";
+@import "./blocks/forms.scss";
+@import "./blocks/full-name.scss";
+@import "./blocks/program-form.scss";
+@import "./blocks/contacts-form.scss";
+@import "./blocks/description-form.scss";
+@import "./blocks/additionally-form.scss";
+@import "./blocks/forms-footer.scss";
+
+/*footer*/
+@import "./blocks/main-footer.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/adress.scss";
+@import "./blocks/footer-logo.scss";
+@import "./blocks/social.scss";
+@import "./blocks/copyright.scss";

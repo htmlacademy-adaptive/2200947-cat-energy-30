@@ -119,7 +119,11 @@
             </address>
           </div>
           <div class="contacts__map contacts__map-img">
-            <img class="contacts__location" src="./images/location.jpg" width="320" height="362" alt="Расположение магазина на карте">
+            <picture>
+              <source width="1440" height="400" type="image/png" media="(min-width:1440px)" srcset="./images/location_deck@1x.png, ./images/location_deck@2x.png 2x">
+              <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="./images/location_tablet@1x.png, ./images/location_tablet@2x.png 2x">
+              <img class="contacts__location" src="./images/location_mob@1x.png" srcset="./images/location_mob@2x.png" width="320" height="362" alt="Расположение магазина на карте">
+            </picture>
           </div>
         </div>
       </section>
