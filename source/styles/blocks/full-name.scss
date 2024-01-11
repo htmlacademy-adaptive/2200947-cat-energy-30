@@ -1,0 +1,9 @@
+.full-name__name,
+.full-name__weight,
+.full-name__age,
+.full-name__name-input,
+.full-name__weight-input,
+.full-name__age-input {
+  @include form-font-forms;
+  font-family: "Oswald", sans-serif;
+}

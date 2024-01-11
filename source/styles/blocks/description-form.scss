@@ -1,0 +1,8 @@
+.description-form__title {
+  @include form-font-title;
+}
+
+.description-form__field {
+  @include form-font-forms;
+  font-family: "Oswald", sans-serif;
+}

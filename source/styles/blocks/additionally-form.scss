@@ -1,0 +1,7 @@
+.additionally-form {
+  @include form-font-forms;
+}
+
+.additionally-form__title {
+  @include form-font-title;
+}

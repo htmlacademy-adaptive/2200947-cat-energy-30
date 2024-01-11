@@ -1,0 +1,11 @@
+.contacts-form__title {
+  @include form-font-title;
+}
+
+.contacts-form__email,
+.contacts-form__email-input,
+.contacts-form__tel,
+.contacts-form__tel-input {
+  @include form-font-forms;
+  font-family: "Oswald", sans-serif;
+}
