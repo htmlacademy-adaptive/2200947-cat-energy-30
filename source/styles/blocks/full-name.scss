@@ -4,9 +4,6 @@
 .full-name__name-input,
 .full-name__weight-input,
 .full-name__age-input {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 18px;
-  text-transform: uppercase;
-  color: #444444;
+  @include form-font-forms;
+  font-family: "Oswald", sans-serif;
 }

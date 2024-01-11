@@ -7,3 +7,29 @@
     src: $font-src;
   }
 }
+
+@mixin form-font-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #000000;
+}
+
+@mixin form-font-forms {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #444444;
+}
+
+@mixin button {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #68b738;
+  text-align: center;
+}

@@ -15,6 +15,5 @@
 }
 
 .basic__button {
-  color: #ffffff;
-  background-color: #68b738;
+  @include button;
 }
